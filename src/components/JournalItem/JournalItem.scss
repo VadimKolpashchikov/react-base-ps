@@ -1,0 +1,25 @@
+.journal-item {
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &__body {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  &__date {
+    color: color.adjust($primary-color, $alpha: -0.6);
+  }
+
+  &__text {
+    color: color.adjust($primary-color, $alpha: -0.4);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

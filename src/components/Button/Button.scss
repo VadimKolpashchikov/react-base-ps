@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  border-radius: 6px;
+  border: none;
+  padding: 8px 30px;
+  transition: background 0.25s;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+
+  &:hover {
+    background: $accent-color-dark;
+  }
+
+  &_accent {
+    background: $accent-color;
+  }
+}

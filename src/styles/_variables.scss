@@ -1,0 +1,8 @@
+@use 'sass:color';
+$primary-color: #ffffff;
+$primary-bg-color: #181818;
+
+$accent-color: #312eb5;
+$accent-color-dark: color.scale($accent-color, $lightness: -15%);
+
+$light-bg-color: #ffffff;

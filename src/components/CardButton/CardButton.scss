@@ -1,0 +1,16 @@
+.card-button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: color.adjust($light-bg-color, $alpha: -0.95);
+  transition: background 0.25s;
+  max-width: 100%;
+  border: none;
+  text-align: start;
+  cursor: pointer;
+
+  &:hover {
+    background-color: color.adjust($light-bg-color, $alpha: -0.9);
+  }
+}
