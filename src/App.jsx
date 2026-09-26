@@ -14,8 +14,8 @@ function App() {
       <Button />
 
       {data.map((el, idx) => (
-        <CardButton>
-          <JournalItem key={idx} data={el} />
+        <CardButton key={idx}>
+          <JournalItem data={el} />
         </CardButton>
       ))}
     </>
