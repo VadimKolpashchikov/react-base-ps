@@ -13,11 +13,11 @@
   }
 
   &__date {
-    color: color.adjust($primary-color, $alpha: -0.6);
+    color: color.adjust($light-color-0, $alpha: -0.6);
   }
 
   &__text {
-    color: color.adjust($primary-color, $alpha: -0.4);
+    color: color.adjust($light-color-0, $alpha: -0.4);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

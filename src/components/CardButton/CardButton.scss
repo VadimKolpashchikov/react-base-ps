@@ -3,7 +3,7 @@
   width: 100%;
   padding: 20px;
   border-radius: 3px;
-  background-color: color.adjust($light-bg-color, $alpha: -0.95);
+  background-color: color.adjust($light-color-0, $alpha: -0.95);
   transition: background 0.25s;
   max-width: 100%;
   border: none;
@@ -11,6 +11,6 @@
   cursor: pointer;
 
   &:hover {
-    background-color: color.adjust($light-bg-color, $alpha: -0.9);
+    background-color: color.adjust($light-color-0, $alpha: -0.9);
   }
 }

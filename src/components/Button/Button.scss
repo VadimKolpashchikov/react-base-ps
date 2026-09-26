@@ -8,11 +8,11 @@
   color: inherit;
   cursor: pointer;
 
-  &:hover {
-    background: $accent-color-dark;
-  }
-
   &_accent {
-    background: $accent-color;
+    background: $accent-color-400;
+
+    &:hover {
+      background: $accent-color-600;
+    }
   }
 }
